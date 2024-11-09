@@ -4,7 +4,7 @@ import tempfile
 st.title("Tennis Game Tracking")
 
 # Layout: 2 columns - Column 1 for video, Column 2 for buttons
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns([3, 2])
 
 with col1:
     st.subheader("Video")
